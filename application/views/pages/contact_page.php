@@ -87,12 +87,12 @@
                 <div class="col-lg-3 col-md-12"></div>      
             </div> 
         </div>
-
+        <hr><br><br>
       <!-- FOOTER -->
-      <!-- <footer class="container">
+      <footer>
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; The Law Guide 2017</p>
-      </footer> -->
+        <p class="float-left">&copy; The Law Guide 2017</p>
+      </footer>
 
         <!-- <p class="text-right">&copy StudentMate 2017</p> -->
 

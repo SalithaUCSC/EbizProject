@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The Law Guide</title>
+        <title>Register | The Law Guide</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="    sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">   
         <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -61,7 +61,7 @@
                             </div>
                             <?php endif; ?>
 
-                            <?php echo form_open('User/registerUser'); ?>
+                            <?php echo form_open('Home/registerUser'); ?>
                                 <div class="form-group">
                                 <label class="col-form-label" for="username"><i class="fa fa-user"></i> Username</label>
                                 <input type="text" class="form-control" id="username" name="username" placeholder="Enter your Username">
@@ -104,7 +104,11 @@
                 <!-- <div class="col-lg-3 col-md-12"></div>      -->
             </div>
         </div>
-
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p class="float-left">&copy; The Law Guide 2017</p>
+      </footer>
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

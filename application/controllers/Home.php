@@ -68,7 +68,7 @@ class Home extends CI_Controller{
             if ($this->form_validation->run() == FALSE) {
 
                 $this->session->set_flashdata('login_failed', 'Username or Password is missing ');
-                redirect('Home');
+                redirect('Home/login');
 
             } else {
                 // Get username
@@ -84,10 +84,10 @@ class Home extends CI_Controller{
                         'username' => $reslt->username ,
                         'fname' => $reslt->fname ,
                         'email' => $reslt->email ,
-                        'contact' => $reslt->contact ,                       
+                        'contact' => $reslt->contact                      
                     );
 
-                    if ($username == 'username') {
+                    if ($username == "username") {
 
 	                    $this->session->set_userdata($session_data);
 	                    $this->load->view('pages/users/home_page');                  
@@ -99,6 +99,11 @@ class Home extends CI_Controller{
                     redirect('Home/login');
                 }
             }
+        }
+
+        public function signout() {
+            session_unset();
+            redirect(base_url());
         }
 
         public function sendMessage() {

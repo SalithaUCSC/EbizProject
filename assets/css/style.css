@@ -4,6 +4,10 @@
 	background-size: cover; 
 }
 
+#logbody .container {
+	min-height: 678px;
+}
+
 #landbody {
 	background-color: whitesmoke;
 }
@@ -37,6 +41,19 @@
 	opacity: 0.9
 }
 
+#homebody .card {
+	margin-top: 30px;
+}
+
+#homebody .card img {
+	width: 300px;
+	height: 300px;
+}
+
+#homebody .card a .card-title {
+	color: black;
+}
+
 #law {
 	opacity: 0.7;
 }
@@ -46,6 +63,26 @@ nav #navTexts ul li {
 	font-size: 18px;
 }
 
+footer {
+	background-color: black; 
+	height: 80px;
+}
+
+footer p {
+	margin-top: 20px;
+}
+
+footer .float-left {
+	color: whitesmoke;
+	margin-left: 20px;
+}
+
+footer .float-right a {
+	color: whitesmoke;
+	margin-right: 20px;
+}
+
+
 @media screen and (max-width: 991px) and (min-width: 240px) {
 	#lwyrs {
 		width: 70%;
@@ -53,5 +90,9 @@ nav #navTexts ul li {
 
 	#uspic {
 		width: 80%;
+	}
+
+	.carousel-inner img {
+		height: 300px;
 	}
 }

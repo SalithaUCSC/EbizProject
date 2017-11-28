@@ -61,9 +61,9 @@
         </div>
 
       <!-- FOOTER -->
-      <footer class="container">
+      <footer>
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; The Law Guide 2017</p>
+        <p class="float-left">&copy; The Law Guide 2017</p>
       </footer>
 
         <!-- <p class="text-right">&copy StudentMate 2017</p> -->

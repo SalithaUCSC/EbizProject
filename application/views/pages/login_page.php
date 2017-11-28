@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The Law Guide</title>
+        <title>Login | The Law Guide</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="    sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">   
         <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -55,10 +55,15 @@
                                     <label class="col-form-label" for="password"><i class="fa fa-lock"></i> Password</label>
                                     <input type="password" class="form-control" name="password" id="password" placeholder="Enter your Password">
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Login</button>
+                                    <a href="<?php echo site_url('Users'); ?>" class="btn btn-primary">Login</a>
+                                    <!-- <button type="submit" class="btn btn-primary">Login</button> -->
                                     <a href="<?php echo site_url('Home/register'); ?>" class="btn btn-link">SignUp</a>
                                 <?php echo form_close(); ?> 
                                 <br>
+                                <?php echo validation_errors('<div class="alert alert-danger alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>','</div>'); ?>
                                 <?php if($this->session->flashdata('login_failed')): ?>
                                 <div class="alert alert-danger alert-dismissible" role="alert">
                                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -73,7 +78,12 @@
                 <div class="col-lg-3 col-md-12"></div>      
             </div> 
         </div>
-
+        
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p class="float-left">&copy; The Law Guide 2017</p>
+      </footer>
 
         <!-- <p class="text-right">&copy StudentMate 2017</p> -->
 

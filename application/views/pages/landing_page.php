@@ -44,13 +44,11 @@
                 <div class="col-lg-1 col-md-12"></div>
                     <div class="col-lg-12 col-md-12">       
                     <h1 style="margin-top: 100px;"><center>Welcome to The Law Guide!</center></h1>
-                    <p><center>WE CONNECT YOU - MEET EXPERTISE - SOLVE FOR YOU</center></p>
+                    <p><center>CONNECT - MEET EXPERTISE - SOLVE</center></p>
                     <center>Already a member? <a class="nav-link" href="<?php echo site_url('Home/login') ?>" style="font-weight: bold;">LOGIN</a></center><br>          
                         <div class="jumbotron">                          
                           <center><img src="<?php echo base_url(); ?>/assets/images/lawyers.png" id="lwyrs"></center><br>
-                          <center><p class="lead">The Ultimate platform to get the expertise help for your legal matters and search for a best solution online.</p></center>
-                          
-              
+                          <center><p class="lead">The Ultimate platform to get the expertise help for your legal matters and search for a best solution online.</p></center>             
                         </div>
                          <!-- START THE FEATURETTES -->
 
@@ -59,7 +57,7 @@
                         <div class="row featurette">
                           <div class="col-md-7">
                             <h2 class="featurette-heading">Get the Lawyer support</h2><br>
-                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            <p class="lead">We provide users a detailed information on lawyers and legal issues so that you can make the choices that are right for you. Get the legal support from them and fulfill your requirements.</p>
                           </div>
                           <div class="col-md-5">
                             <img class="featurette-image img-fluid mx-auto" src="<?php echo base_url(); ?>/assets/images/lawsup.jpg" alt="Generic placeholder image">
@@ -71,7 +69,7 @@
                         <div class="row featurette">
                           <div class="col-md-7 order-md-2">
                             <h2 class="featurette-heading">Find the Best Solution</h2>
-                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            <p class="lead">You can get to know how our experts perform in cases to fulfill customers' requirements. We have all the records of our law consultants and their win/loss ratios and other stuff. You can optimize and choose the best person for you</p>
                           </div>
                           <div class="col-md-5 order-md-1">
                             <img class="featurette-image img-fluid mx-auto" src="<?php echo base_url(); ?>/assets/images/best.jpg" alt="Generic placeholder image">
@@ -83,7 +81,7 @@
                         <div class="row featurette">
                           <div class="col-md-7">
                             <h2 class="featurette-heading">Make your Reservation</h2>
-                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            <p class="lead">You can reserve our experts through your phone/laptops. Depending on your requirements, you’ll be charged and we guarantee to give you a satisfactory service. We accept credit cards and debit cards to make your life simple.</p>
                           </div>
                           <div class="col-md-5">
                             <img class="featurette-image img-fluid mx-auto" src="<?php echo base_url(); ?>/assets/images/lawsute.jpg" alt="Generic placeholder image">
@@ -98,11 +96,11 @@
                 <div class="col-lg-1 col-md-12"></div>      
             </div> 
         </div>
-
+        
       <!-- FOOTER -->
-      <footer class="container">
+      <footer>
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; The Law Guide 2017</p>
+        <p class="float-left">&copy; The Law Guide 2017</p>
       </footer>
 
         <!-- <p class="text-right">&copy StudentMate 2017</p> -->

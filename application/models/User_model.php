@@ -34,28 +34,27 @@ class User_model extends CI_Model {
 
     public function checkLogin() {
 
-    //enter username and password
-    $username = $this->input->post('username',TRUE);
-    // $fname = $this->input->post('fname',TRUE);
-    $password = sha1($this->input->post('password',TRUE));
+        //enter username and password
+        $username = $this->input->post('username',TRUE);
+        $password = sha1($this->input->post('password',TRUE));
 
-    //fetch data from database
-    $this->db->where('username',$username);
-    $this->db->where('password',$password);
+        //fetch data from database
+        $this->db->where('username',$username);
+        $this->db->where('password',$password);
 
-    $res = $this->db->get('users');
+        $res = $this->db->get('users');
+        
+        //check if there's a user with the above inputs
+        if ($res->num_rows() > 0) {
 
-    //check if there's a user with the above inputs
-    if ($res->num_rows() > 0) {
+            //retrieve the details of the user
+            return $res->row();
 
-        //retrieve the details of the user
-        return $res->row();
+        } else {
 
-    } else {
+            return false;
 
-        return false;
-
-    }
+        }
 
     }
 }
