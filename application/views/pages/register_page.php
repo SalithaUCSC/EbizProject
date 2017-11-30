@@ -43,7 +43,7 @@
             <div class="row">
 
                 <div class="col-lg-6">                        
-                    <div class="card">               
+                    <div class="card" style="margin-bottom: 220px;">               
                         <div class="card-body">
                             <center><h3>SIGN UP</h3></center>
 

@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12"></div>
                     <div class="col-lg-6 col-md-12">                 
-                        <div class="card">               
+                        <div class="card" style="margin-bottom: 290px;">               
                             <div class="card-body">
                                 <center><h3>LOGIN</h3></center>
                                 <?php echo form_open('Home/loginUser'); ?>

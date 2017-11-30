@@ -23,6 +23,26 @@
 	/*background-color: #C8C9CF; */
 }
 
+.findbody {
+	background-image: url(../../assets/images/g3.jpg);
+	background-size: cover;
+}
+
+.profbody {
+	background-image: url(../../assets/images/g3.jpg);
+	background-size: cover;	
+}
+
+.donebody {
+	background-image: url(../../assets/images/g3.jpg);
+	background-size: cover;	
+}
+
+.reservebody .col-lg-4 .card-img-top{
+	width: 200px; 
+	height: 200px;
+}
+
 #lognav:hover {
 	color: #264FCC;
 }
@@ -39,6 +59,11 @@
 	margin-top: 150px;
 	background-color: whitesmoke; 
 	opacity: 0.9
+}
+
+#homebody {
+	background-image: url(../../assets/images/g3.jpg);
+	background-size: cover;	
 }
 
 #homebody .card {

@@ -22,4 +22,16 @@ class Users extends CI_Controller{
     public function lawyerProfile() {
         $this->load->view('pages/users/get_lawyer');
     }
+
+    public function workDone() {
+        $this->load->view('pages/users/work_done');
+    }
+
+    public function Reservation() {
+        $this->load->view('pages/users/reservation');
+    }
+
+    public function reserveCase() {
+        $this->load->view('pages/users/reserve_page');
+    }
 }

@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
-    <body id="homebody">        
+    <body id="homebody" class="findbody">        
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
           <a class="navbar-brand" href="<?php echo base_url(); ?>">The Law Guide</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTexts" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('Home/contact') ?>">Contact Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('Home/signout') ?>">Sign Out</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o"></i> User
+                    </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#" style="color: black;">Profile</a>
+                    <a class="dropdown-item" href="<?php echo site_url('Home/signout') ?>" style="color: black;">Sign Out</a>
+                  </div>
                   </li>
                 </ul>
             </span>
@@ -48,7 +53,12 @@
                 <div class="col-lg-1 col-md-12"></div>
 
                     <div class="col-lg-12 col-md-12">       
-	                    <h1 style="margin-top: 100px;"><center>LAWYER LIST</center></h1>
+	                    <div></div><h1 style="margin-top: 100px;">LAWYER LIST</h1> <br>   
+                      <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Type a name" aria-label="Search">
+                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                         
                       <div class="row">    
                         <div class="col-lg-4">
                           <div class="card" style="width: 20rem;">
@@ -83,7 +93,7 @@
                               <h4 class="card-title">Michael Simons</h4>
                               <h6 class="card-subtitle mb-2 text-muted">Lawyer</h6>
                             <br>
-                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/law3.png" alt="Card image cap"></center>
+                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/law4.png" alt="Card image cap"></center>
                             <div class="card-body">
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -96,7 +106,7 @@
                               <h4 class="card-title">Andrew Collins</h4>
                               <h6 class="card-subtitle mb-2 text-muted">Lawyer</h6>
                             <br>
-                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/law4.png" alt="Card image cap"></center>
+                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/law3.png" alt="Card image cap"></center>
                             <div class="card-body">
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>

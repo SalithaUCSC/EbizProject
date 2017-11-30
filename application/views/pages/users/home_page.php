@@ -33,8 +33,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('Home/contact') ?>">Contact Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('Home/signout') ?>">Sign Out</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o"></i> User
+                    </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#" style="color: black;">Profile</a>
+                    <a class="dropdown-item" href="<?php echo site_url('Home/signout') ?>" style="color: black;">Sign Out</a>
+                  </div>
                   </li>
                 </ul>
             </span>
@@ -88,29 +93,29 @@
                 <div class="col-lg-1 col-md-12"></div>
 
                     <div class="col-lg-12 col-md-12">       
-	                    <h1 style="margin-top: 100px;"><center>Keep in touch with The Law Guide!</center></h1>
+	                    <h1 style="margin-top: 100px;"><center>Keep in touch with Us!</center></h1>
 	                    <p><center>CONNECT - MEET EXPERTISE - SOLVE</center></p>
 	                    <br><br>       
-				        <div class="row">
-				          <div class="col-lg-4">
-				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/lawman.png" alt="Generic placeholder image" width="150" height="150"><br><br>
-				            <h2>Find Lawyers</h2>
-				            <p style="text-align: justify;">Here you can get the details of the lawyers who are already connected with us. All the records of the lawyers after enagaged with us have been stored in our lawyer base.</p><br>
-				            <p><a class="btn btn-dark" href="<?php echo site_url('Users/findLawyers') ?>" role="button">Find now &raquo;</a></p></center>
-				          </div><!-- /.col-lg-4 -->
-				          <div class="col-lg-4">
-				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/done.png" alt="Generic placeholder image" width="150" height="150"><br><br>
-				            <h2>Work Done</h2>
-				            <p style="text-align: justify;">You have the chance to see the latest and past work done by the lawyers with our collaboration. According to the nature of the case, the experiences we got have been listed.</p><br>
-				            <p><a class="btn btn-dark" href="#" role="button">View details &raquo;</a></p></center>
-				          </div><!-- /.col-lg-4 -->
-				          <div class="col-lg-4">
-				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/dollar.png" alt="Generic placeholder image" width="150" height="150"><br><br>
-				            <h2>Make reservation</h2>
-				            <p style="text-align: justify;">Reserve your lawyer according to your legal needs. Advance online payment will guide you to complete this. Simply you have to pay using your credit/debit cards.</p><br>
-				            <p><a class="btn btn-dark" href="#" role="button">View details &raquo;</a></p></center>
-				          </div><!-- /.col-lg-4 -->
-				        </div>
+    				        <div class="row">
+    				          <div class="col-lg-4">
+    				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/lawman.png" alt="Generic placeholder image" width="150" height="150"><br><br>
+    				            <h2>Find Lawyers</h2>
+    				            <p style="text-align: justify;">Here you can get the details of the lawyers who are already connected with us. All the records of the lawyers after enagaged with us have been stored in our lawyer base.</p><br>
+    				            <p><a class="btn btn-dark" href="<?php echo site_url('Users/findLawyers') ?>" role="button">Find now &raquo;</a></p></center>
+    				          </div><!-- /.col-lg-4 -->
+    				          <div class="col-lg-4">
+    				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/done.png" alt="Generic placeholder image" width="150" height="150"><br><br>
+    				            <h2>Work Done</h2>
+    				            <p style="text-align: justify;">You have the chance to see the latest and past work done by the lawyers with our collaboration. According to the nature of the case, the experiences we got have been listed.</p><br>
+    				            <p><a class="btn btn-dark" href="<?php echo site_url('Users/workDone') ?>" role="button">View details &raquo;</a></p></center>
+    				          </div><!-- /.col-lg-4 -->
+    				          <div class="col-lg-4">
+    				            <center><img class="rounded-circle" src="<?php echo base_url(); ?>/assets/images/dollar.png" alt="Generic placeholder image" width="150" height="150"><br><br>
+    				            <h2>Make reservation</h2>
+    				            <p style="text-align: justify;">Reserve your lawyer according to your legal needs. Advance online payment will guide you to complete this. Simply you have to pay using your credit/debit cards.</p><br>
+    				            <p><a class="btn btn-dark" href="<?php echo site_url('Users/Reservation') ?>" role="button">Reserve now &raquo;</a></p></center>
+    				          </div><!-- /.col-lg-4 -->
+    				        </div>
                     </div>
                 <div class="col-lg-1 col-md-12"></div>      
             </div> 
