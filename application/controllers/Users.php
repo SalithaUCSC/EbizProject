@@ -34,4 +34,13 @@ class Users extends CI_Controller{
     public function reserveCase() {
         $this->load->view('pages/users/reserve_page');
     }
+
+    public function Reserved() {
+        $this->load->view('pages/users/reserved');
+    }
+
+    public function findDetails() {
+        $this->load->view('pages/users/ResDetails');
+    }
+
 }

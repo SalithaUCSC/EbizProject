@@ -107,6 +107,15 @@ footer .float-right a {
 	margin-right: 20px;
 }
 
+.card #morelink {
+	color: red;
+	text-decoration: none;
+}
+
+#morelink:hover {
+	color: black;
+	text-decoration: none;
+}
 
 @media screen and (max-width: 991px) and (min-width: 240px) {
 	#lwyrs {
