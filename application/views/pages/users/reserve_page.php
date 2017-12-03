@@ -9,6 +9,11 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style type="text/css">
+          #resbtn:hover {
+            color: red !important;
+          }
+        </style>
     </head>
     <body id="homebody" class="reservebody">        
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
@@ -97,7 +102,7 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.8500</p>
                             </div>
-                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+                            <button id="resbtn" type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
                             Reserve</button><br><br>      
                             </center>
                           </div>
