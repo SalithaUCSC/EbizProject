@@ -57,8 +57,8 @@
                             <div class="col-lg-4 col-sm-12">
                                 <div class="card">
                                 <br>
-                                <center>
-                                  <a href="#"><h4 class="card-title">John Smith</h4></a>
+                                <center><button type="button" class="btn btn-dark"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Availability : YES</button><br><br>
+                                  <h4 class="card-title">John Smith</h4>
                                   <h6 class="card-subtitle mb-2 text-muted">Lawyer</h6>
                                 <br>
                                 <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/law1.png" alt="Card image cap"></center>
@@ -76,7 +76,7 @@
                             </div> 
                         <div class="col-lg-8">
                           <div class="row">
-                            <div class="jumbotron" style="margin-top: 30px; padding-top: 10px; width: 1200px; height: 670px;">
+                            <div class="jumbotron" style="margin-top: 30px; padding-top: 10px; width: 1200px; height: 730px;" id="lawjumbo">
                                 <div class="container">
                                   <h4>PERSONAL DETAILS</h4>
                                     <table class="table">

@@ -57,7 +57,7 @@
                     <div class="col-lg-12 col-md-12">       
                       <center><h1 style="margin-top: 100px;">RESRVE YOUR LAWYER</h1></center>                         
                       <div class="row">    
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12">
                           <div class="card" style="width: 20rem;">
                             <br>
                             <center>
@@ -68,13 +68,14 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.10 000</p>
                             </div>
-                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
-                            Reserve</button><br><br>  
+                            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalLong">
+                            Reserve</button>
+                            <a class="btn btn-outline-info" href="<?php echo site_url('Users/lawyerProfile') ?>" role="button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Availability</a><br><br>  
                             </center>
                           </div>
                           </div> 
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12">
                           <div class="card" style="width: 20rem;">
                             <br>
                             <center>
@@ -85,13 +86,14 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.7000</p>
                             </div>
-                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
-                            Reserve</button><br><br>                           
+                            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalLong">
+                            Reserve</button>
+                            <a class="btn btn-outline-info" href="<?php echo site_url('Users/lawyerProfile') ?>" role="button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Availability</a><br><br>                          
                             </center>
                           </div>
                           </div> 
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-12">
                           <div class="card" style="width: 20rem;">
                             <br>
                             <center>
@@ -102,8 +104,9 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.8500</p>
                             </div>
-                            <button id="resbtn" type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
-                            Reserve</button><br><br>      
+                            <button id="resbtn" type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalLong">
+                            Reserve</button>
+                            <a class="btn btn-outline-info" href="<?php echo site_url('Users/lawyerProfile') ?>" role="button"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Availability</a><br><br>
                             </center>
                           </div>
                           </div> 

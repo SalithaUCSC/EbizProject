@@ -58,7 +58,7 @@
                               <table class="table table-striped" style="margin-top: 30px; font-size: 24px; margin-bottom: 100px;">
                                 <tbody>
                                   <tr>
-                                    <td style="width: 1400px;"><b>Reservation 1</b><p>Reserved Case type : Landlord and Tenant<br>Reserved Lawyer : Ryan McDonald</p>
+                                    <td style="width: 1400px;"><b>Reservation 1</b><p>Reserved Case type : Landlord and Tenant<br>Reserved Lawyer : John Smith</p>
                                     </td>
                                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-user-circle-o"></i> 
                             Contact</button></td>
@@ -103,7 +103,7 @@
                                     <div class="row">
                                     <div class="col">
                                       <label>Lawyer Email </label>
-                                      <input type="text" class="form-control" placeholder="ryan94@gmail.com" disabled="disabled">
+                                      <input type="text" class="form-control" placeholder="john94@gmail.com" disabled="disabled">
                                     </div>
                                   </div>
                                 </form>

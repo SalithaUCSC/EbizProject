@@ -9,6 +9,15 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style type="text/css">
+          .modal-body a {
+            color: black; 
+            text-decoration: none;
+          }
+          .modal-body a:hover {
+            color: red !important;
+          }
+        </style>
     </head>
     <body id="homebody" class="donebody">        
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
@@ -55,45 +64,65 @@
                             <div class="col-sm-4">
                                 <div class="card" >
                                     <div class="card-body">
-                                          <center><h4 class="card-title">Civil works</h4></center>
-                                          <center><i class="fa fa-male fa-5x" aria-hidden="true"></i></center><br>
-                                          <center><a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a></center>
+                                        <center><h4 class="card-title">Civil works</h4></center>
+                                        <center><i class="fa fa-male fa-5x" aria-hidden="true"></i></center><br>
+                                        <center>
+                                          <a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a>
+                                          <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">View Details</button>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="card">
+                                <div class="card" >
                                     <div class="card-body">
-                                          <center><h4 class="card-title">Domestic relations</h4></center>
-                                          <center><i class="fa fa-home fa-5x" aria-hidden="true"></i></center><br>
-                                          <center><a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a></center>
+                                        <center><h4 class="card-title">Domestic Relations</h4></center>
+                                        <center><i class="fa fa-home fa-5x" aria-hidden="true"></i></center><br>
+                                        <center>
+                                          <a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a>
+                                          <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">View Details</button>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="card">
+                                <div class="card" >
                                     <div class="card-body">
-                                          <center><h4 class="card-title">Criminal Cases</h4></center>
-                                          <center><i class="fa fa-gavel fa-5x" aria-hidden="true"></i></center><br>
-                                          <center><a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a></center>
+                                        <center><h4 class="card-title">Criminal Cases</h4></center>
+                                        <center><i class="fa fa-gavel fa-5x" aria-hidden="true"></i></center><br>
+                                        <center>
+                                          <a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a>
+                                          <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">View Details</button>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="card">
+                                <div class="card" >
                                     <div class="card-body">
-                                          <center><h4 class="card-title">Employment and Labour</h4></center>
-                                          <center><i class="fa fa-user fa-5x" aria-hidden="true"></i></center><br>
-                                          <center><a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a></center>
+                                        <center><h4 class="card-title">Emplayment and Labour</h4></center>
+                                        <center><i class="fa fa-user fa-5x" aria-hidden="true"></i></center><br>
+                                        <center>
+                                          <a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a>
+                                          <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">View Details</button>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="card">
+                                <div class="card" >
                                     <div class="card-body">
-                                          <center><h4 class="card-title">Landlord and Tenant</h4></center>
-                                          <center><i class="fa fa-map fa-4x" aria-hidden="true"></i></center><br>
-                                          <center><a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a></center>
+                                        <center><h4 class="card-title">Landlord and Tenant</h4></center>
+                                        <center><i class="fa fa-map fa-5x" aria-hidden="true"></i></center><br>
+                                        <center>
+                                          <a href="<?php echo site_url('Users/reserveCase') ?>" class="btn btn-secondary">Reserve</a>
+                                          <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">View Details</button>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
@@ -111,6 +140,35 @@
                         </div>                        
                       </div>                       
                     </div><br>
+                    <!-- Modal -->
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="margin-top: 30px;">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Civil works</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p style="font-size: 20px;">Procedure</p><hr>
+                            <p><b>STEP 1 : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et sapien eget velit laoreet venenatis. Aenean in ligula vitae enim efficitur dignissim nec quis sapien.</p>
+                            <p><b>STEP 2 : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et sapien eget velit laoreet venenatis. Aenean in ligula vitae enim efficitur dignissim nec quis sapien.</p>
+                            <p><b>STEP 3 : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et sapien eget velit laoreet venenatis. Aenean in ligula vitae enim efficitur dignissim nec quis sapien.</p>
+                            <p><b>STEP 4 : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et sapien eget velit laoreet venenatis. Aenean in ligula vitae enim efficitur dignissim nec quis sapien.</p>
+                            <hr><p style="font-size: 20px;">Needed Documents</p><hr>
+                            <p>Application Form <i class="fa fa-arrow-right" aria-hidden="true"></i> <small><a style="color: black; text-decoration: none;" href="<?php echo base_url(); ?>assets/files/ApplicationForm.docx" download>Download</a></small></p><hr>
+                            <p>Document 1 <i class="fa fa-arrow-right" aria-hidden="true"></i> <small> <a href="<?php echo base_url(); ?>assets/files/ApplicationForm.docx" download>Download</a></small></p>
+                            <!-- <a style="color: black; text-decoration: none;" href="<?php echo base_url(); ?>assets/files/ISMNote.docx" download>Application Form</a><hr> -->
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 <div class="col-lg-1 col-md-12"></div>      
             </div> 
         </div>

@@ -63,8 +63,8 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.10 000</p>
                             </div>
-                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
-                            Reserve</button><br><br>  
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+                            Reserved</button><a class="btn btn-link" href="<?php echo site_url('Users/findDetails') ?>" role="button" id="morelink">Revervation details</a><br><br>  
                             </center>
                           </div>
                           </div> 
@@ -80,8 +80,8 @@
                             <div class="card-body">
                               <p class="card-text">Initial Payment : Rs.7000</p>
                             </div>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
-                            Reserved</button><a class="btn btn-link" href="<?php echo site_url('Users/findDetails') ?>" role="button" id="morelink">Revervation details</a><br><br>                           
+                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+                            Reserve</button><br><br>                           
                             </center>
                           </div>
                           </div> 

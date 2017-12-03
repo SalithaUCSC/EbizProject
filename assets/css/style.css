@@ -129,4 +129,8 @@ footer .float-right a {
 	.carousel-inner img {
 		height: 300px;
 	}
+
+	#lawjumbo {
+		height: 1150px !important;
+	}
 }
