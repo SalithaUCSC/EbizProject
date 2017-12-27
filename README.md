@@ -1,6 +1,10 @@
 # EbizProject
-Online web portal to get legal support for legal matters
-
+Online web site
+---
+![s1](https://user-images.githubusercontent.com/23145752/34388533-218c3930-eb5a-11e7-8dae-22d507bbfbac.png)
+---
+![ss9](https://user-images.githubusercontent.com/23145752/34388551-3b72bafe-eb5a-11e7-9c7e-57caf4150b52.png)
+---
 1. Download the zip file.
 2. Extract it and rename as "EbizProject".
 3. Run XAMPP or WAMP and go to "http://localhost/phpmyadmin".
